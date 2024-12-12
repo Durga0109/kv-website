@@ -1,0 +1,52 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #4E342E;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;/* Smooth transition for scroll effect */
+}
+
+.navbar-brand h1 {
+  font-size: 1.5rem; /* Consistent font size */
+  margin: 0;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li {
+  display: inline;
+}
+
+.navbar-menu button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu button:hover {
+  color: #f0a500;
+}
+
+.navbar li {
+  cursor: pointer;
+}
+
+.navbar li:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,24 @@
+.gallery {
+    height: 100vh;
+    padding: 20px;
+    background: #ffe0b2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .gallery .images {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+  }
+  
